@@ -7,6 +7,11 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+// rfMRj3C6G1tfKMgRC
+// template_x3v8hrv
+// service_wsja4yj
+
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -17,9 +22,45 @@ const Contact = () => {
 
   const [loading, setLoading] = useState(false);
 
-  const handleChange = (e) => {}
+  const handleChange = (e) => {
+    const { name, value } = e.target;
 
-  const handleSubmit = (e) => {}
+    setForm({ ...form, [name]: value })
+  }
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    emailjs.send(
+      'service_wsja4yj',
+      'template_x3v8hrv',
+      {
+        from_name: form.name,
+        to_name: 'Wylie',
+        from_email: form.email,
+        to_email: 'wyliesebtroy@gmail.com',
+        message: form.message,
+      },
+      'rfMRj3C6G1tfKMgRC'
+      )
+      .then(() => {
+        setLoading(false);
+        alert('Thank you, I will get back to you as soon as possible');
+
+        setForm({
+          name: '',
+          email: '',
+          message: '',
+        })
+      }, (error) => {
+        setLoading(false)
+
+        console.log(error);
+
+        alert('Something went wrong.')
+      })
+  }
 
   return (
     <div
