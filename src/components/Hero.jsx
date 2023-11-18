@@ -10,13 +10,13 @@ const Hero = () => {
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
         <div className='flex flex-col justify-center items-center mt-5'>
-          <div className='w-5 h-5 rounded-full bg-[#fa4234]' />
+          <div className='w-5 h-5 rounded-full bg-[#25c3f7]' />
           <div className='w-1 sm:h-80 h-40 violet-gradient' />
         </div>
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#fa4234]'>Wylie</span>
+            Hi, I'm <span className='text-[#25f7e2]'>W</span><span className='text-[#25f4f7]'>y</span><span className='text-[#25d8f7]'>l</span><span className='text-[#25b8f7]'>i</span><span className='text-[#25a0f7]'>e</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I develop user interfaces <br className='sm:block hidden' />
