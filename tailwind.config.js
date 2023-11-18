@@ -4,6 +4,7 @@ module.exports = {
   mode: "jit",
   theme: {
     extend: {
+      backgroundColor: ['hover'],
       colors: {
         primary: "#050816",
         secondary: "#aaa6c3",
@@ -14,6 +15,7 @@ module.exports = {
         "black-100": "#100d25",
         "black-200": "#090325",
         "black-1000": "#000000",
+        "green-100": "#278219",
         "white-100": "#f3f3f3",
       },
       boxShadow: {
