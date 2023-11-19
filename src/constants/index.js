@@ -31,8 +31,8 @@ import {
       title: "About",
     },
     {
-      id: "work",
-      title: "Work",
+      id: "works",
+      title: "Works",
     },
     {
       id: "contact",
@@ -50,11 +50,11 @@ import {
       icon: backend,
     },
     {
-      title: "Frontend Developer",
+      title: "Backend Developer",
       icon: mobile,
     },
     {
-      title: "Frontend Developer",
+      title: "Dog Developer",
       icon: backend,
     },
   ];
