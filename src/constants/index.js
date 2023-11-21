@@ -30,10 +30,10 @@ import {
       id: "about",
       title: "About",
     },
-    {
-      id: "work",
-      title: "Work",
-    },
+    // {
+    //   id: "work",
+    //   title: "Work",
+    // },
     {
       id: "contact",
       title: "Contact",
@@ -50,12 +50,12 @@ import {
       icon: backend,
     },
     {
-      title: "Backend Developer",
+      title: "Problem Solver",
       icon: mobile,
     },
     {
-      title: "Dog Developer",
-      icon: backend,
+      title: "Excellent Communication",
+      icon: creator,
     },
   ];
   
@@ -203,7 +203,7 @@ import {
         "Reversed engineer a financial stocks website where users could make predictions on a specific stock, choose what industry the stock belongs in and if the direction is either bullish or bearish.",
       tags: [
         {
-          name: "Express",
+          name: "express",
           color: "blue-text-gradient",
         },
         {
@@ -211,7 +211,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "Javascript",
+          name: "javascript",
           color: "pink-text-gradient",
         },
       ],
@@ -224,15 +224,15 @@ import {
         "In a three-person group, we designed a website where users can post recipes for themselves and others to see. You can add your own ingredients, create your own recipes, and edit and update them.",
       tags: [
         {
-          name: "Python",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "PostgreSQL",
+          name: "postgreSQL",
           color: "green-text-gradient",
         },
         {
-          name: "Ajax",
+          name: "ajax",
           color: "pink-text-gradient",
         },
       ],
@@ -245,20 +245,41 @@ import {
         "Website which can track both expenses and earnings, you have the option to include if the expense or earning is monthly or yearly as well as selecting the date for the transaction..",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "express",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "mongodb",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
       source_code_link: "https://github.com/wylietroy/expense-tracker",
+    },
+    {
+      name: "Frogger",
+      description:
+        "With only basic html, css, and javascript I designed a simple game of frogger which you need to cross the roads with oncoming cars to reach the other side without being hit.",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/wylietroy/Frogger-Game",
     },
   ];
   
